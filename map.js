@@ -8,4 +8,8 @@ export class MapComponent {
     get src() {
         return this._url;
     }
+
+    get description() {
+        return 'Just for the demo about map component creation';
+    }
 }
