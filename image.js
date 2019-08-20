@@ -8,4 +8,8 @@ export class ImageComponent {
     get src() {
         return this._src;
     }
+
+    get description() {
+        return 'Just for the demo about image component creation';
+    }
 }
