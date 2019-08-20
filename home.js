@@ -5,4 +5,11 @@ export class HomeComponent {
         this.map = new MapComponent();
         this.image = new ImageComponent();
     }
+
+    info() {
+        return {
+            image_url: this.image.src,
+            map_url: this.map.src
+        }
+    }
 }
